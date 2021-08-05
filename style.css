@@ -1,0 +1,157 @@
+/* navbar */
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: cadetblue;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: whitesmoke;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.right{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+}
+/* end */
+
+/* products */
+#products{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+/* end */
+
+/* search bar */
+.searchbar{
+    width: 40%;
+    background-color: white;
+    border-radius: 20px;
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    align-items: center;
+    gap: 8px;
+    margin-left: 60px;
+}
+.searchbar > input{
+    width: 85%;
+    border: none;
+}
+.searchbar > input:focus{
+    outline: none;
+}
+.searchbar > input:hover{
+    outline: none;
+}
+.search-btn{
+    background-color: white;
+    border: none;
+}
+.search-btn > span{
+    font-size: 23px;
+}
+/* end */
+
+/* default categories div */
+.default-parent{
+    width: 93%;
+    margin: auto;
+    margin-top: 50px;
+}
+.default-categories{
+    width: 80%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.default-categories div{
+    margin-bottom: 100px;
+}
+.default-categories p{
+    font-size: medium;
+    font-style: italic;
+    color: grey;
+    line-height: 1.5;
+}
+.default-categories img{
+    border-radius: 10px;
+}
+/* end */
+
+/* search div */
+.search-parent{
+    width: 93%;
+    margin: auto;
+    margin-top: 50px;
+}
+.search-div{
+    width: 80%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.search-div div{
+    margin-bottom: 100px;
+}
+.search-div p{
+    font-size: medium;
+    font-style: italic;
+    color: grey;
+    line-height: 1.5;
+}
+.search-div img{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+}
+/* end */
+
+/* meal of the day div */
+.meal-parent{
+    width: 93%;
+    margin: auto;
+    margin-top: 50px;
+}
+.meal-div{
+    width: 80%;
+    margin: 50px;
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 20px;
+}
+.meal-div div{
+    margin-bottom: 100px;
+}
+.meal-div p{
+    font-size: medium;
+    font-style: italic;
+    color: grey;
+    line-height: 1.5;
+}
+.meal-div img{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+}
+/* end */
